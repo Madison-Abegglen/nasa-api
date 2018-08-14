@@ -6,7 +6,7 @@ let app = document.getElementById("app");
 function draw(data) {
   console.log(data);
   app.innerHTML = `
-    <nav class="navbar navbar-light bg-light">
+    <nav class="navbar navbar-light">
       <span class="navbar-brand mb-0 h1">
         <div id="error"></div>
         <h1>APOD - Astronomy Picture of The Day</h1>  
